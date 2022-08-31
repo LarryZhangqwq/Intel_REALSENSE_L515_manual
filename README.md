@@ -10,6 +10,7 @@
 
 * ROS( Noetic Ninjemys )
 * SDK
+* Ddynamic_reconfigure
 * RealSense™ ROS
 
 ## 2. Installation
