@@ -50,15 +50,24 @@ Install librealsense2 debian package:
   sudo apt-get install librealsense2-utils
   ````
 
-- Optionally install the developer and debug packages:
-  `sudo apt-get install librealsense2-dev`
-  `sudo apt-get install librealsense2-dbg`
+- Install the developer and debug packages:
+  
+  ````
+  sudo apt-get install librealsense2-dev
+  sudo apt-get install librealsense2-dbg
+  ````
+  
+  
   With `dev` package installed, you can compile an application with **librealsense** using `g++ -std=c++11 filename.cpp -lrealsense2` or an IDE of your choice.
 
 Reconnect the Intel RealSense depth camera and run: `realsense-viewer` to verify the installation.
 
 Verify that the kernel is updated :
 `modinfo uvcvideo | grep "version:"` should include `realsense` string
+
+
+
+
 
 
 
